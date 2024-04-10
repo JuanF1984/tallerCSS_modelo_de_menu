@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programación front-end</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/index.css">
     <script src="https://kit.fontawesome.com/7973797be6.js" crossorigin="anonymous"></script>
 </head>
 
@@ -20,9 +21,9 @@
             <div class="menu_header">
                 <ul>
                     <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i>Inicio</a></li>
-                    <li><a href="historia.html">Nuestra historia</a></li>
-                    <li><a href="somos.html">Quienes somos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="historia.html"><i class="fa-solid fa-box-archive"></i>Nuestra historia</a></li>
+                    <li><a href="somos.html"><i class="fa-solid fa-face-smile-wink"></i>Quienes somos</a></li>
+                    <li><a href="contacto.html"><i class="fa-solid fa-message"></i>Contacto</a></li>
                 </ul>
             </div>
             <div class="log_button">
@@ -47,11 +48,65 @@
                 </article>
             </div>
             <div class="hero_img">
-                <img src="Top-10-Front-End-Programming-Languages.jpg" alt="imagen con los logos de lenguajes más usados en programación front-end">
+                <img src="/assets/img/Top-10-Front-End-Programming-Languages.jpg"
+                    alt="imagen con los logos de lenguajes más usados en programación front-end">
             </div>
         </div>
-
     </section>
+    <section class="gallery">
+        <div class="gallery_container">
+            <a href="#html_article"><img src="/assets/img/HTML5.png" alt="logo de HTML5" class="gallery_img"></a>
+            <a href="#css_article"><img src="/assets/img/CSS3.png" alt="logo de CSS3" class="gallery_img"></a>
+            <a href="#js_article"><img src="/assets/img/JS.png" alt="logo de JavaScript" class="gallery_img"></a>
+        </div>
+    </section>
+    <section class="info">
+        <div class="leng_info" id="html_article">
+            <article class="leng_article">
+                <p class="leng_parrafo">
+                    HTML, o Lenguaje de Marcado de Hipertexto (HyperText Markup Language), es la base fundamental de la
+                    creación de páginas web. Se trata de un lenguaje de marcado que define la estructura y el contenido
+                    de una página, utilizando etiquetas para indicar cómo se debe mostrar cada elemento.
+                </p>
+            </article>
+            <img src="/assets/img/HTML5.png" alt="logo de HTML5" class="leng_img">
+        </div>
+        <div class="leng_info" id="css_article">
+            <img src="/assets/img/CSS3.png" alt="logo de CSS3" class="leng_img">
+            <article class="leng_article">
+                <p class="leng_parrafo">
+                    CSS, o Cascading Style Sheets (Hojas de Estilo en Cascada), es un lenguaje que se utiliza para dar
+                    estilo a las páginas web. Es decir, define cómo se deben mostrar los elementos HTML en una página
+                    web, como el color, la tipografía, el tamaño, el diseño y la posición.
+                </p>
+            </article>
+        </div>
+        <div class="leng_info" id="js_article">
+            <article class="leng_article">
+                <p class="leng_parrafo">
+                    JavaScript (abreviado como JS) es un lenguaje de programación de alto nivel que se utiliza para
+                    agregar interactividad y comportamiento dinámico a las páginas web. A diferencia de HTML y CSS, que
+                    se encargan de la estructura y presentación de una página, JavaScript permite crear elementos que
+                    reaccionan a las acciones del usuario,
+                </p>
+            </article>
+            <img src="/assets/img/JS.png" alt="logo de HTML5" class="leng_img">
+        </div>
+    </section>
+    <footer>
+        <div class="marca_footer">
+            <p>
+                2024 - San Andrés de Giles - Buenos Aires - Argentina
+            </p>
+        </div>
+        <div class="redes">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-square-x-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
